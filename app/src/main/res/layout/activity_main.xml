@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bt_chapter1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.使用 AppCompact 完成 LifecycleObserver"/>
+
+    <Button
+        android:id="@+id/bt_chapter2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.使用普通 Activity 完成 LifecycleObserver"/>
+
+    <Button
+        android:id="@+id/bt_chapter3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3.LiveData 示例"/>
+
+    <Button
+        android:id="@+id/bt_chapter4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4.ViewModel 示例"/>
+
+    <Button
+        android:id="@+id/bt_chapter5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5.Fragment 通信示例"/>
+
+    <Button
+        android:id="@+id/bt_chapter6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6. Paging 策略"/>
+
+</LinearLayout>
